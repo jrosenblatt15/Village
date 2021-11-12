@@ -1,7 +1,7 @@
 {
   "name": "village-app",
   "version": "0.1.0",
-  "homepage": "https://impactvillage.io",
+  "homepage": "impactvillage.io",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",
