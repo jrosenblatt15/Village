@@ -1,0 +1,145 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+@keyframes rotateIn {
+  from {
+    transform: rotate3d(0, 0, 1, -200deg);
+    opacity: 0;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes fadeBigInRight {
+  from {
+    opacity: 0;
+    transform: translate3d(2000px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes bounceInUp {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  from {
+    opacity: 0;
+    transform: translate3d(0, 3000px, 0);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d(0, -20px, 0);
+  }
+
+  75% {
+    transform: translate3d(0, 10px, 0);
+  }
+
+  90% {
+    transform: translate3d(0, -5px, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+#root > div > .container-fluid {
+  animation: fadeIn 500ms both;
+}
+#globe {
+  animation: rotateIn 800ms 300ms both;
+}
+#hero > .hero-content > .center {
+  animation: fadeInRight 700ms 300ms both;
+}
+#hero > .hero-content > p {
+  animation: fadeBigInRight 300ms 600ms both;
+}
+.hero-line {
+  animation: fadeIn 200ms 1200ms both;
+}
+.bigt,
+.smallt,
+.bigr,
+.smallr,
+.chimney {
+  animation: fadeIn 100ms 1000ms both;
+}
+@media screen and (min-width: 960px) {
+  .cta .cta-button {
+    animation: bounceInUp 500ms 1600ms both;
+  }
+}
+@media screen and (max-width: 960px) {
+  .cta .cta-button {
+    animation: fadeInUp 500ms 1600ms both;
+  }
+}
+
+li:not(.bold):hover {
+  animation: pulse 200ms both;
+}
+
+@media (min-width: 960px) {
+  .cta-button:not(.hero-btn):hover {
+    animation: pulse 200ms both;
+  }
+
+  .ques:hover {
+    animation: pulse 400ms both;
+  }
+}
