@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "/static/js/main.2cfb1a32.chunk.js",
-    "main.js.map": "/static/js/main.2cfb1a32.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.797c385b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.797c385b.js.map",
-    "static/css/2.383c0125.chunk.css": "/static/css/2.383c0125.chunk.css",
-    "static/js/2.96de4222.chunk.js": "/static/js/2.96de4222.chunk.js",
-    "static/js/2.96de4222.chunk.js.map": "/static/js/2.96de4222.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.383c0125.chunk.css.map": "/static/css/2.383c0125.chunk.css.map",
-    "static/js/2.96de4222.chunk.js.LICENSE.txt": "/static/js/2.96de4222.chunk.js.LICENSE.txt",
-    "static/media/Untitled_Artwork-removebg-preview.6a1ffc96.png": "/static/media/Untitled_Artwork-removebg-preview.6a1ffc96.png",
-    "static/media/invest.2b25e5af.png": "/static/media/invest.2b25e5af.png",
-    "static/media/thinking.9768427b.png": "/static/media/thinking.9768427b.png",
-    "static/media/withdraw.d4d19cc7.png": "/static/media/withdraw.d4d19cc7.png"
+    "main.js": "/Village/static/js/main.2cfb1a32.chunk.js",
+    "main.js.map": "/Village/static/js/main.2cfb1a32.chunk.js.map",
+    "runtime-main.js": "/Village/static/js/runtime-main.6a95f05c.js",
+    "runtime-main.js.map": "/Village/static/js/runtime-main.6a95f05c.js.map",
+    "static/css/2.383c0125.chunk.css": "/Village/static/css/2.383c0125.chunk.css",
+    "static/js/2.96de4222.chunk.js": "/Village/static/js/2.96de4222.chunk.js",
+    "static/js/2.96de4222.chunk.js.map": "/Village/static/js/2.96de4222.chunk.js.map",
+    "index.html": "/Village/index.html",
+    "static/css/2.383c0125.chunk.css.map": "/Village/static/css/2.383c0125.chunk.css.map",
+    "static/js/2.96de4222.chunk.js.LICENSE.txt": "/Village/static/js/2.96de4222.chunk.js.LICENSE.txt",
+    "static/media/Untitled_Artwork-removebg-preview.6a1ffc96.png": "/Village/static/media/Untitled_Artwork-removebg-preview.6a1ffc96.png",
+    "static/media/invest.2b25e5af.png": "/Village/static/media/invest.2b25e5af.png",
+    "static/media/thinking.9768427b.png": "/Village/static/media/thinking.9768427b.png",
+    "static/media/withdraw.d4d19cc7.png": "/Village/static/media/withdraw.d4d19cc7.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.797c385b.js",
+    "static/js/runtime-main.6a95f05c.js",
     "static/css/2.383c0125.chunk.css",
     "static/js/2.96de4222.chunk.js",
     "static/js/main.2cfb1a32.chunk.js"
