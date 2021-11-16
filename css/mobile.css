@@ -32,7 +32,7 @@ body {
 }
 #globe {
   transform: scale(0.6) !important;
-  margin: -100px auto 0 !important;
+  margin: -75px auto 0 !important;
   display: block;
 }
 .hero-content {
