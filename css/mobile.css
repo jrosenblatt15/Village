@@ -9,21 +9,21 @@ body {
 }
 
 .hide-small {
-  display: none;
+  display: none !important;
+}
+
+.hide-big {
+  width: 200px;
 }
 
 .nav__bar {
   padding: 0 !important;
-  height: 20vh;
+  z-index: 10 !important;
 }
 
-#logo {
-  transform: scale(0.5);
-}
 .logo {
   position: relative;
-  bottom: 2vh;
-  right: 20vw;
+  left: 5%;
 }
 .navbar-toggler {
   position: relative;
@@ -31,8 +31,8 @@ body {
   right: 5vw;
 }
 #globe {
-  transform: scale(0.6) !important;
-  margin: -75px auto 0 !important;
+  width: 50%;
+  margin: 10px auto 0 !important;
   display: block;
 }
 .hero-content {
